@@ -1,0 +1,28 @@
+<svg viewBox="0 0 760 290" role="img" aria-label="Long trade: the signal candle closes, the trade enters at the next open, a stop below and a target above, and a trailing stop that steps up after each closed candle until the target is hit" xmlns="http://www.w3.org/2000/svg" width="760" height="290"><style>text{font-family:ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:11px;fill:#171717}.muted{fill:#6b6b68}</style><rect x="0.0" y="0.0" width="760.0" height="290.0" fill="#ffffff"/>
+          <line x1="230" x2="640" y1="235" y2="235" stroke="#b91c1c" stroke-width="1.5"/>
+          <line x1="230" x2="640" y1="85" y2="85" stroke="#15803d" stroke-width="1.5"/>
+          <line x1="230" x2="640" y1="185" y2="185" stroke="#6b6b68" stroke-dasharray="4 4"/>
+          <polyline points="290,235 290,215 350,215 350,195 470,195 470,172 530,172 530,150 590,150" fill="none" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5 3"/>
+          <g stroke="#171717" stroke-width="1">
+            <line x1="71" x2="71" y1="190" y2="225"/><rect x="60" y="200" width="22" height="15" fill="#b91c1c"/>
+            <line x1="131" x2="131" y1="198" y2="222"/><rect x="120" y="205" width="22" height="10" fill="#15803d"/>
+            <line x1="191" x2="191" y1="178" y2="210"/><rect x="180" y="185" width="22" height="20" fill="#15803d" stroke="#171717" stroke-width="2"/>
+            <line x1="251" x2="251" y1="165" y2="192"/><rect x="240" y="170" width="22" height="15" fill="#15803d"/>
+            <line x1="311" x2="311" y1="145" y2="176"/><rect x="300" y="150" width="22" height="20" fill="#15803d"/>
+            <line x1="371" x2="371" y1="142" y2="166"/><rect x="360" y="150" width="22" height="10" fill="#b91c1c"/>
+            <line x1="431" x2="431" y1="125" y2="164"/><rect x="420" y="130" width="22" height="30" fill="#15803d"/>
+            <line x1="491" x2="491" y1="118" y2="138"/><rect x="480" y="122" width="22" height="8" fill="#15803d"/>
+            <line x1="551" x2="551" y1="80" y2="128"/><rect x="540" y="100" width="22" height="22" fill="#15803d"/>
+          </g>
+          <circle cx="240" cy="185" r="4.5" fill="#171717"/>
+          <circle cx="562" cy="85" r="4.5" fill="#15803d"/>
+          <text x="191" y="168" text-anchor="middle">signal</text>
+          <text x="191" y="156" text-anchor="middle" class="muted">on close</text>
+          <text x="240" y="268" text-anchor="middle">entry at the next open</text>
+          <line x1="240" x2="240" y1="190" y2="256" stroke="#6b6b68" stroke-dasharray="2 3"/>
+          <text x="648" y="89">target (2 R)</text>
+          <text x="648" y="189" class="muted">entry</text>
+          <text x="648" y="239" fill="#b91c1c">stop (2 ATR)</text>
+          <text x="600" y="154" fill="#b91c1c">trailing stop</text>
+          <text x="20" y="30" class="muted">Long trade · stop and target fixed at entry · the trail moves up after each close</text>
+        </svg>

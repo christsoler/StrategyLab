@@ -1,0 +1,22 @@
+<svg viewBox="0 0 760 170" role="img" aria-label="Timeline of the date range: the first 70 percent is in-sample, cut into four slices used for the search and fitness; the last 30 percent is out-of-sample, used only for the final check" xmlns="http://www.w3.org/2000/svg" width="760" height="170"><style>text{font-family:ui-monospace,'Cascadia Mono',Menlo,Consolas,monospace;font-size:11px;fill:#171717}.muted{fill:#6b6b68}</style><rect x="0.0" y="0.0" width="760.0" height="170.0" fill="#ffffff"/>
+          <text x="20" y="22" class="muted">start of range</text>
+          <text x="740" y="22" text-anchor="end" class="muted">end of range</text>
+          <g stroke="#171717" stroke-width="1">
+            <rect x="20" y="36" width="126" height="56" rx="10" fill="#ececeb"/>
+            <rect x="150" y="36" width="126" height="56" rx="10" fill="#ececeb"/>
+            <rect x="280" y="36" width="126" height="56" rx="10" fill="#ececeb"/>
+            <rect x="410" y="36" width="126" height="56" rx="10" fill="#ececeb"/>
+            <rect x="548" y="36" width="192" height="56" rx="10" fill="#ffffff" stroke-dasharray="5 4"/>
+          </g>
+          <text x="83" y="60" text-anchor="middle">slice 1</text><text x="83" y="78" text-anchor="middle" class="muted">quality q1</text>
+          <text x="213" y="60" text-anchor="middle">slice 2</text><text x="213" y="78" text-anchor="middle" class="muted">quality q2</text>
+          <text x="343" y="60" text-anchor="middle">slice 3</text><text x="343" y="78" text-anchor="middle" class="muted">quality q3</text>
+          <text x="473" y="60" text-anchor="middle">slice 4</text><text x="473" y="78" text-anchor="middle" class="muted">quality q4</text>
+          <text x="644" y="60" text-anchor="middle">out-of-sample</text><text x="644" y="78" text-anchor="middle" class="muted">never seen by the search</text>
+          <line x1="542" x2="542" y1="30" y2="132" stroke="#b91c1c" stroke-width="2"/>
+          <text x="542" y="148" text-anchor="middle" fill="#b91c1c">split (default 70 / 30)</text>
+          <path d="M20 108 H536" stroke="#6b6b68" fill="none"/><path d="M20 102 V114 M536 102 V114" stroke="#6b6b68"/>
+          <text x="278" y="128" text-anchor="middle">in-sample: search, fitness from q1 … q4, "Slices" = how many are &gt; 0</text>
+          <path d="M548 108 H740" stroke="#6b6b68" fill="none"/><path d="M548 102 V114 M740 102 V114" stroke="#6b6b68"/>
+          <text x="644" y="128" text-anchor="middle">finalists only: passed?</text>
+        </svg>
